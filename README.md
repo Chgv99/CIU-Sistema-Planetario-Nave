@@ -1,8 +1,12 @@
 # Sistema-Planetario-Nave
 
-Prototipo de sistema planetario hecho con [Processing 3](https://processing.org/) para la asignatura Creando Interfaces de Usuario.
+[CIU-Sistema-Planetario](https://github.com/Chgv99/CIU-Sistema-Planetario) pero con una cámara añadida a modo de nave espacial.
+Este readme contiene la misma información que el de [CIU-Sistema-Planetario](https://github.com/Chgv99/CIU-Sistema-Planetario) pero con información y notas sobre la implementación de la [Cámara]()
 
-Para ejecutar el programa, descomprime el .zip y ejecuta "SistemaPlanetario/SistemaPlanetario.pde".
+
+[CIU-Sistema-Planetario](https://github.com/Chgv99/CIU-Sistema-Planetario) es un prototipo de sistema planetario hecho con [Processing 3](https://processing.org/) para la asignatura Creando Interfaces de Usuario.
+
+Para ejecutar el programa, descomprime el .zip y ejecuta "SistemaPlanetarioNave/SistemaPlanetarioNave.pde".
 
 *Christian García Viguera. [Universidad de Las Palmas de Gran Canaria.](https://www2.ulpgc.es/)*
 
@@ -11,11 +15,12 @@ Para ejecutar el programa, descomprime el .zip y ejecuta "SistemaPlanetario/Sist
 </p>
 
 # Índice
-* [Descripción](https://github.com/Chgv99/CIU-Sistema-Planetario#Descripción)
-* [Instrucciones de uso](https://github.com/Chgv99/CIU-Sistema-Planetario#Instrucciones-de-uso)
-* [Funcionamiento](https://github.com/Chgv99/CIU-Sistema-Planetario#Funcionamiento)
-* [Errores conocidos](https://github.com/Chgv99/CIU-Sistema-Planetario#Errores)
-* [Referencias](https://github.com/Chgv99/CIU-Sistema-Planetario#Referencias)
+* [Descripción](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Descripción)
+* [Instrucciones de uso](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Instrucciones-de-uso)
+* * [Uso de la cámara](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Uso-de-la-cámara)
+* [Funcionamiento](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Funcionamiento)
+* [Errores conocidos](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Errores)
+* [Referencias](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Referencias)
 ---
 
 # Descripción
@@ -30,13 +35,17 @@ Por ello, las órbitas de Marte y de la Luna se han inclinado sobre el eje Z y r
 
 Este programa solo cuenta con la vista del sistema planetario, no existen más pantallas. En esta, es posible visualizar el sistema.
 
-Se ofrece la opción de [rotar la vista en ambos ejes](https://github.com/Chgv99/CIU-Sistema-Planetario#Rotacion) con click derecho y de activar y desactivar la iluminación de la escena con la tecla "L".
+Se ofrece la opción de [rotar la vista en ambos ejes](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Rotacion) con click derecho y de activar y desactivar la iluminación de la escena con la tecla "L".
 
-Desactivar la iluminación permitirá visualizar mejor los planetas que se encuentren en el subespacio comprendido entre el Sol y la cámara, dado que no reflejan la luz del Sol hacia esta. Además, permitirá también visualizar los [nombres de los planetas](https://github.com/Chgv99/CIU-Sistema-Planetario#Texto).
+Desactivar la iluminación permitirá visualizar mejor los planetas que se encuentren en el subespacio comprendido entre el Sol y la cámara, dado que no reflejan la luz del Sol hacia esta. Además, permitirá también visualizar los [nombres de los planetas](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Texto).
 
 <p align="center">
   <img width="666" height="500" src="https://i.gyazo.com/ea6ba1ac8da3580ad5c448e243b80daa.gif">
 </p>
+
+## Uso de la cámara
+
+lorem ipsum
 
 # Funcionamiento
 
@@ -165,8 +174,8 @@ void addCelestialBody(PShape cuerpo, float translation_speed, float rotation_spe
 
 # Errores
 
-* [Rotación](https://github.com/Chgv99/CIU-Sistema-Planetario#Rotación)
-* [Texto](https://github.com/Chgv99/CIU-Sistema-Planetario#Texto)
+* [Rotación](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Rotación)
+* [Texto](https://github.com/Chgv99/CIU-Sistema-Planetario-Nave#Texto)
 
 ## Rotación
 
